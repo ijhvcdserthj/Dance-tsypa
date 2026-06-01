@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://db6q4ptwhejjn"]
+
+[ext_resource type="Texture2D" uid="uid://byn0p6tl0m74o" path="res://assets/backgrounds/Меню.png" id="1_6qhff"]
+[ext_resource type="Script" uid="uid://xuu655n0cf51" path="res://scripts/player_select.gd" id="1_lcqys"]
+[ext_resource type="Texture2D" uid="uid://p24qvto2h0rn" path="res://assets/кно_3.png" id="2_iu05h"]
+[ext_resource type="Texture2D" uid="uid://r3q0le05evyb" path="res://assets/ui/кно_4.png" id="3_hx7tf"]
+[ext_resource type="Texture2D" uid="uid://cvkp273ka5ms" path="res://assets/ui/кнопка 5.png" id="4_lcqys"]
+
+[node name="Control" type="Control" unique_id=241169309]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lcqys")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1424979477]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_6qhff")
+
+[node name="OnePlayerButton" type="Button" parent="." unique_id=1029443419]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.508
+anchor_top = 0.386
+anchor_right = 0.508
+anchor_bottom = 0.386
+offset_left = -101.216
+offset_top = -55.128006
+offset_right = 78.784
+offset_bottom = 54.871994
+icon = ExtResource("2_iu05h")
+flat = true
+expand_icon = true
+
+[node name="TwoPlayerButton" type="Button" parent="." unique_id=258243582]
+layout_mode = 0
+offset_left = 486.0
+offset_top = 328.0
+offset_right = 664.0
+offset_bottom = 425.0
+icon = ExtResource("3_hx7tf")
+flat = true
+expand_icon = true
+
+[node name="BackButton" type="Button" parent="." unique_id=825106820]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 534.0
+offset_right = 172.0
+offset_bottom = 593.0
+icon = ExtResource("4_lcqys")
+flat = true
+expand_icon = true

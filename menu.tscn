@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://b7yca4yk5voc3"]
+
+[ext_resource type="Script" uid="uid://0a68opmh83e6" path="res://scripts/menu_ui.gd" id="1_mhnvy"]
+[ext_resource type="Texture2D" uid="uid://byn0p6tl0m74o" path="res://assets/backgrounds/Меню.png" id="2_4ytvr"]
+[ext_resource type="Texture2D" uid="uid://dxmbgwnukb6yx" path="res://assets/ui/кно_2.png" id="4_4ytvr"]
+[ext_resource type="Texture2D" uid="uid://cq786ywhrxjk7" path="res://assets/ui/кно_1.png" id="4_mhnvy"]
+
+[node name="Control" type="Control" unique_id=1561522263]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mhnvy")
+
+[node name="Menu" type="TextureRect" parent="." unique_id=246955604]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_4ytvr")
+
+[node name="PlayButton" type="Button" parent="." unique_id=1212944577]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.386
+anchor_right = 0.5
+anchor_bottom = 0.386
+offset_left = -91.0
+offset_top = -54.128006
+offset_right = 87.0
+offset_bottom = 53.871994
+theme_override_constants/icon_max_width = 0
+icon = ExtResource("4_mhnvy")
+flat = true
+expand_icon = true
+
+[node name="QuitButton" type="Button" parent="." unique_id=1971981728]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.50100005
+anchor_top = 0.57900006
+anchor_right = 0.50100005
+anchor_bottom = 0.57900006
+offset_left = -90.15204
+offset_top = -43.192047
+offset_right = 89.84796
+offset_bottom = 43.807953
+icon = ExtResource("4_4ytvr")
+flat = true
+expand_icon = true

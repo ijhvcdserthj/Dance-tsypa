@@ -1,0 +1,273 @@
+[gd_scene format=3 uid="uid://drlxtcnpvf70w"]
+
+[ext_resource type="Script" uid="uid://bavhbpfkdfs2p" path="res://scripts/game_ui.gd" id="1_kvpfn"]
+[ext_resource type="Texture2D" uid="uid://dttkn6k8he52q" path="res://assets/backgrounds/bg_easy.png" id="1_uwrxv"]
+[ext_resource type="Texture2D" uid="uid://dmjllko1p518b" path="res://assets/tsypa/easy/yellow_idle.png" id="2_iywne"]
+[ext_resource type="Texture2D" uid="uid://bgm5vbgobqvfw" path="res://assets/tsypa/easy/yellow_dance_0.png" id="4_trtic"]
+[ext_resource type="Texture2D" uid="uid://dmqgbusnmm573" path="res://assets/ui/вверх.png" id="4_u5sy4"]
+[ext_resource type="Texture2D" uid="uid://bfca4s64fyu8u" path="res://assets/ui/вниз.png" id="5_gee14"]
+[ext_resource type="Texture2D" uid="uid://cgwqlfknt4kc5" path="res://assets/tsypa/easy/yellow_dance_1.png" id="5_ir15t"]
+[ext_resource type="Texture2D" uid="uid://cnxmr6xloa42c" path="res://assets/tsypa/easy/yellow_dance_2.png" id="6_ca42v"]
+[ext_resource type="Texture2D" uid="uid://bfff1asv4dsg2" path="res://assets/ui/влево.png" id="6_u5sy4"]
+[ext_resource type="Texture2D" uid="uid://db0bemxm1n3ea" path="res://assets/ui/вправо.png" id="7_gee14"]
+[ext_resource type="Texture2D" uid="uid://b5jxcmlb3nf0a" path="res://assets/tsypa/easy/yellow_dance_3.png" id="7_rysoc"]
+[ext_resource type="Texture2D" uid="uid://ek7er2o1dtlw" path="res://assets/ui/кнопка 6.png" id="8_gee14"]
+[ext_resource type="Texture2D" uid="uid://e3jgs3ha1kn" path="res://assets/tsypa/easy/yellow_dance_4.png" id="8_ssvqc"]
+[ext_resource type="Texture2D" uid="uid://do36jqluw1ig1" path="res://assets/tsypa/easy/yellow_dance_5.png" id="9_264po"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1kice"]
+animations = [{
+"frames": [{
+"duration": 0.7,
+"texture": ExtResource("4_trtic")
+}, {
+"duration": 0.7,
+"texture": ExtResource("5_ir15t")
+}, {
+"duration": 0.7,
+"texture": ExtResource("6_ca42v")
+}, {
+"duration": 0.7,
+"texture": ExtResource("7_rysoc")
+}, {
+"duration": 0.7,
+"texture": ExtResource("8_ssvqc")
+}, {
+"duration": 0.7,
+"texture": ExtResource("9_264po")
+}],
+"loop": true,
+"name": &"dance",
+"speed": 12.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gee14"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5newe"]
+load_path = "res://.godot/imported/gray_dance_03.png-c8016731a30f14f36da3121c7a020068.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_37s47"]
+load_path = "res://.godot/imported/gray_dance_04.png-2dfad016e29f4bc5524fd5872c3c2277.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bt5mj"]
+load_path = "res://.godot/imported/gray_dance_05.png-3ce3dff4076f8cad743592117b15c219.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e1j6l"]
+load_path = "res://.godot/imported/gray_dance_00.png-0af1898f3e9b4d07524808ca0b8bf986.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pl11u"]
+load_path = "res://.godot/imported/gray_dance_01.png-d96ca59d226228f38d53e41bb381c71a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bhx41"]
+load_path = "res://.godot/imported/gray_dance_02.png-1079d1600e2a15efd7caf2c6940a0f41.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qnb83"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_5newe")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_37s47")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bt5mj")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_e1j6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_pl11u")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bhx41")
+}],
+"loop": true,
+"name": &"dance",
+"speed": 12.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vtaks"]
+size = Vector2(74.46875, 95.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvpfn"]
+size = Vector2(66.46875, 93.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dinhu"]
+size = Vector2(93.46875, 73.375)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0tnpc"]
+size = Vector2(96.9375, 72)
+
+[sub_resource type="FontVariation" id="FontVariation_0tnpc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvuet"]
+size = Vector2(71.25, 92)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_trtic"]
+size = Vector2(70.875, 92)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ir15t"]
+size = Vector2(92, 71)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ca42v"]
+size = Vector2(97.5, 72)
+
+[node name="Node2D" type="Node2D" unique_id=1983576728]
+script = ExtResource("1_kvpfn")
+metadata/_edit_horizontal_guides_ = [281.0]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1817768785]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_uwrxv")
+stretch_mode = 6
+
+[node name="TsypaYellow" type="Sprite2D" parent="." unique_id=1880098851]
+position = Vector2(328.00003, 447)
+scale = Vector2(1.8, 1.65)
+texture = ExtResource("2_iywne")
+
+[node name="DanceAnim" type="AnimatedSprite2D" parent="TsypaYellow" unique_id=495670064]
+sprite_frames = SubResource("SpriteFrames_1kice")
+
+[node name="TsypaGray" type="Sprite2D" parent="." unique_id=1718443347]
+visible = false
+position = Vector2(838, 448)
+scale = Vector2(1.8, 1.8)
+texture = SubResource("CompressedTexture2D_gee14")
+
+[node name="DanceAnim" type="AnimatedSprite2D" parent="TsypaGray" unique_id=378675083]
+visible = false
+sprite_frames = SubResource("SpriteFrames_qnb83")
+animation = &"dance"
+
+[node name="HitZoneP1_Up" type="Area2D" parent="." unique_id=2084954724]
+position = Vector2(-1, 167)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP1_Up" unique_id=2094806634]
+visible = false
+position = Vector2(107, 111.875)
+shape = SubResource("RectangleShape2D_vtaks")
+
+[node name="HitZoneP1_Down" type="Area2D" parent="." unique_id=1550882639]
+
+[node name="CollisionShape2DnShap4e2" type="CollisionShape2D" parent="HitZoneP1_Down" unique_id=68466199]
+visible = false
+position = Vector2(318, 281.875)
+shape = SubResource("RectangleShape2D_kvpfn")
+
+[node name="HitZoneP1_Left" type="Area2D" parent="." unique_id=1705428092]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP1_Left" unique_id=382177489]
+visible = false
+position = Vector2(434.73438, 282.3125)
+shape = SubResource("RectangleShape2D_dinhu")
+
+[node name="HitZoneP1_Right" type="Area2D" parent="." unique_id=152606789]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP1_Right" unique_id=1260879816]
+visible = false
+position = Vector2(207.53125, 280)
+shape = SubResource("RectangleShape2D_0tnpc")
+
+[node name="HintP1_Up" type="Sprite2D" parent="." unique_id=952531039]
+position = Vector2(105, 280)
+texture = ExtResource("4_u5sy4")
+
+[node name="HintP1_Down" type="Sprite2D" parent="." unique_id=239343321]
+position = Vector2(319, 280)
+texture = ExtResource("5_gee14")
+
+[node name="HintP1_Left" type="Sprite2D" parent="." unique_id=1412156964]
+position = Vector2(209, 280)
+texture = ExtResource("6_u5sy4")
+
+[node name="HintP1_Right" type="Sprite2D" parent="." unique_id=1627471689]
+position = Vector2(433, 281)
+texture = ExtResource("7_gee14")
+
+[node name="ScoreLabelPlayer1" type="Label" parent="." unique_id=113307815]
+offset_left = 284.0
+offset_top = 589.0
+offset_right = 388.0
+offset_bottom = 631.0
+theme_override_fonts/font = SubResource("FontVariation_0tnpc")
+theme_override_font_sizes/font_size = 30
+text = "Счёт: 0"
+
+[node name="SpawnTimerP1" type="Timer" parent="." unique_id=885389281]
+
+[node name="MenuButton" type="Button" parent="." unique_id=1757178313]
+offset_left = 9.0
+offset_top = 551.0
+offset_right = 143.0
+offset_bottom = 666.0
+icon = ExtResource("8_gee14")
+flat = true
+expand_icon = true
+
+[node name="HitZoneP2_Up" type="Area2D" parent="." unique_id=54303262]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP2_Up" unique_id=1869446547]
+visible = false
+position = Vector2(647.375, 281)
+shape = SubResource("RectangleShape2D_kvuet")
+
+[node name="HitZoneP2_Down" type="Area2D" parent="." unique_id=1636995231]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP2_Down" unique_id=1424630748]
+visible = false
+position = Vector2(864, 284)
+shape = SubResource("RectangleShape2D_trtic")
+
+[node name="HitZoneP2_Left" type="Area2D" parent="." unique_id=1774460610]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP2_Left" unique_id=210132581]
+visible = false
+position = Vector2(753, 279.5)
+shape = SubResource("RectangleShape2D_ir15t")
+
+[node name="HitZoneP2_Right" type="Area2D" parent="." unique_id=581938842]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitZoneP2_Right" unique_id=974693640]
+visible = false
+position = Vector2(964.25, 281)
+shape = SubResource("RectangleShape2D_ca42v")
+
+[node name="HitZoneP2_Up2" type="Sprite2D" parent="." unique_id=1511892273]
+position = Vector2(645, 282)
+texture = ExtResource("4_u5sy4")
+
+[node name="HitZoneP2_Right2" type="Sprite2D" parent="." unique_id=1961758121]
+position = Vector2(963, 281)
+texture = ExtResource("7_gee14")
+
+[node name="HitZoneP2_Left2" type="Sprite2D" parent="." unique_id=1642433352]
+position = Vector2(756, 280)
+texture = ExtResource("6_u5sy4")
+
+[node name="HitZoneP2_Down2" type="Sprite2D" parent="." unique_id=1876137425]
+position = Vector2(865, 281)
+texture = ExtResource("5_gee14")
+
+[node name="SpawnTimerP2" type="Timer" parent="." unique_id=139352379]
+
+[node name="ScoreLabelPlayer2" type="Label" parent="." unique_id=826489346]
+offset_left = 785.0
+offset_top = 592.0
+offset_right = 889.0
+offset_bottom = 634.0
+theme_override_fonts/font = SubResource("FontVariation_0tnpc")
+theme_override_font_sizes/font_size = 30
+text = "Счёт: 0"

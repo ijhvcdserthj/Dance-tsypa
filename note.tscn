@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b2yfn8l7kk0l2"]
+
+[ext_resource type="Script" uid="uid://4kv25tdjh055" path="res://scripts/note.gd" id="1_t3yvt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t3yvt"]
+size = Vector2(432, 193)
+
+[node name="Area2D" type="Area2D" unique_id=382550767]
+script = ExtResource("1_t3yvt")
+
+[node name="ArrowSprite" type="Sprite2D" parent="." unique_id=1435281234]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1763881173]
+position = Vector2(218, 97)
+shape = SubResource("RectangleShape2D_t3yvt")
